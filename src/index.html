@@ -11,6 +11,7 @@
             href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600;900&family=Raleway:wght@400;600;800&family=Rubik:wght@400;600;900&display=swap"
             rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <title>InSync Innovations: InSync Pro</title>
         <script defer src="js/script.js"></script>
     </head>
@@ -42,8 +43,10 @@
             </header>
             <!-- Hero Section -->
             <section class="hero" id="hero">
+                <!-- <img src="https://web-mobile-first.s3.eu-west-3.amazonaws.com/production/mockup_generic_device_android_a334d083cc.png" alt=""> -->
+                <img src="https://static.vecteezy.com/system/resources/previews/009/973/092/non_2x/people-icon-sign-symbol-design-free-png.png" alt="bright-photo" width="300px">
                 <h2>The Future of Team Productivity</h2>
-                <p>Enjoy the most prolific moment of your start-up, mature
+                <p>Enjoy the most prolific moment of your start-up or mature
                     company with InSync Pro and achieve 30% more.</p>
                 <form action="#" class="hero--form">
                     <input type="text" name="emailField" id="emailField"
@@ -56,59 +59,91 @@
                 <h2>Features</h2>
                 <div class="feature-items">
                     <div class="feature-item">
-                        <img src="images/feature-1.png" alt="Feature 1">
+                        <div class="icon">
+                            <i class="fa-solid fa-user-group fa-2xl"></i>
+                        </div>
                         <h3>Real-time Collaboration</h3>
-                        <p>Work together with your team in real-time, no matter
-                            where you are.</p>
+                        <p>With InSync Pro, you can work together with your team in real-time, no matter where you are. Whether you're in the same office or spread across the globe, you can collaborate seamlessly and efficiently on projects and tasks.</p>
                     </div>
                     <div class="feature-item">
-                        <img src="images/feature-2.png" alt="Feature 2">
+                        <div class="icon">
+                            <i class="fa-solid fa-list fa-2xl"></i>
+                        </div>
                         <h3>Task Management</h3>
-                        <p>Organize and manage tasks effortlessly with InSync Pro's
-                            powerful task management tools.</p>
+                        <p>Organize and manage tasks effortlessly with InSync Pro's powerful task management tools. Keep track of deadlines, assign tasks to team members, and get real-time updates on progress, all in one place.</p>
                     </div>
                     <div class="feature-item">
-                        <img src="images/feature-3.png" alt="Feature 3">
+                        <div class="icon">
+                            <i class="fa-regular fa-pen-to-square fa-2xl"></i>
+                        </div>
                         <h3>Customizable Workspace</h3>
-                        <p>Customize your workspace to suit your team's unique needs
-                            and preferences.</p>
+                        <p>Make your workspace work for you. With InSync Pro's customizable workspace, you can tailor your experience to suit your team's unique needs and preferences. Choose the layout, features, and tools that work best for you and your team.</p>
                     </div>
                 </div>
+                <button type="button">Get Started</button>
             </section>
             <!-- Pricing section -->
             <section id="pricing" class="pricing">
                 <h2>Pricing</h2>
-                <div class="pricing-item">
-                    <h3>Basic</h3>
-                    <p>Perfect for small teams just getting started.</p>
-                    <p class="price">$9.99/month</p>
-                    <a href="#" class="cta-btn">Buy Now</a>
-                </div>
-                <div class="pricing-item">
-                    <h3>Pro</h3>
-                    <p>The ultimate productivity tool for teams.</p>
-                    <p class="price">$19.99/month</p>
-                    <a href="#" class="cta-btn">Buy Now</a>
-                </div>
-                <div class="pricing-item">
-                    <h3>Enterprise</h3>
-                    <p>Customized solutions for large organizations.</p>
-                    <p class="price">Contact Us</p>
-                    <a href="#" class="cta-btn">Contact Us</a>
+                <div class="pricing-items">
+                    <div class="pricing-item">
+                        <h3>Basic</h3>
+                        <p>Perfect for small teams just getting started.</p>
+                        <p class="price">$9.99/month</p>
+                        <ul>
+                            <li>Up to 5 team members</li>
+                            <li>1 project workspace</li>
+                            <li>Basic task management features</li>
+                            <li>Email support</li>
+                        </ul>
+                        <a href="#" class="cta-btn">Buy Now</a>
+                    </div>
+                    <div class="pricing-item pro-item">
+                        <h3>Pro</h3>
+                        <p>The ultimate productivity tool for teams.</p>
+                        <p class="price">$19.99/month</p>
+                        <ul>
+                            <li>Up to 20 team members</li>
+                            <li>Unlimited project workspaces</li>
+                            <li>Advanced task management features</li>
+                            <li>Email and phone support</li>
+                        </ul>
+                        <a href="#" class="cta-btn">Buy Now</a>
+                    </div>
+                    <div class="pricing-item">
+                        <h3>Enterprise</h3>
+                        <p>Customized solutions for large organizations.</p>
+                        <p class="price">Contact Us</p>
+                        <ul>
+                            <li>Custom team member limits</li>
+                            <li>Custom project workspaces</li>
+                            <li>Advanced task management features</li>
+                            <li>24/7 support</li>
+                        </ul>
+                        <a href="#" class="cta-btn">Contact Us</a>
+                    </div>
                 </div>
             </section>
+            
             <!-- Testimonials section -->
-            <section class="testimonials">
-                <h2>Our Customers</h2>
-                <div class="testimonial-item">
-                    <img
-                        src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0427e759776297.5a2f08652df10.jpg"
-                        alt="avatar" width="40px" height="40px">
-                    <h3>Hassen Nurr</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Nesciunt officia quas dicta unde ratione a ad fugiat at
-                        quos sunt ducimus odit, numquam aliquam atque, omnis, et
-                        ipsam. Ad, at?</p>
+            <section id="testimonials" class="testimonials">
+                <h2>What Our Customers Say</h2>
+                <div class="testimonial-slider">
+                    <div class="testimonial-item">
+                        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="avatar">
+                        <h3>Hassen Nurr</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt officia quas dicta unde ratione a ad fugiat at quos sunt ducimus odit, numquam aliquam atque, omnis, et ipsam. Ad, at?</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="https://randomuser.me/api/portraits/men/11.jpg" alt="avatar">
+                        <h3>John Doe</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt officia quas dicta unde ratione a ad fugiat at quos sunt ducimus odit, numquam aliquam atque, omnis, et ipsam. Ad, at?</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="avatar">
+                        <h3>Jane Smith</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt officia quas dicta unde ratione a ad fugiat at quos sunt ducimus odit, numquam aliquam atque, omnis, et ipsam. Ad, at?</p>
+                    </div>
                 </div>
             </section>
             <!-- Footer section -->
